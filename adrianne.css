@@ -324,16 +324,22 @@ font-family: 'Comfortaa', cursive;
     margin: 15px 5px 15px;
 }
 
-.adrianne-month {
+.offtherecord-month {
     color: #f4f4f4;
 font-family: 'Montserrat';
 font-weight: 600;
 font-size: 14px;
-margin-left: 220px;
+margin-left: 180px;
 padding: 5px;
 background: var(--main);
 border-radius: 10px;
-	font-align: center;
+height: 20px;
+display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: stretch;
+  flex-grow: 1;
+  max-width: 100px;
 }
 
 
