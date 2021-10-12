@@ -1,0 +1,698 @@
+
+  .adrianne {
+  height: 550px; 
+  width: 590px;
+  background: #f4f4f4; 
+  margin: auto;
+  position: relative; 
+  border-right: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.adrianne .char-name {
+  height: 50px; 
+  width: 200px;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-left: -75px;
+  line-height: 1;
+  font-family: 'Comfortaa', cursive;
+  color: #c6c6c6;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.adrianne .char-name h1 {
+  font-size: 12px; 
+  margin-top: 0px;
+  margin-left: 75px;
+  font-style: italic;
+  text-transform: uppercase;
+  
+}
+
+.adrianne-limit {
+position: absolute;
+height: 20px;
+width: 40px;
+top: 310px;
+left: 15px;
+font-family: 'Comfortaa', cursive;
+font-size: 30px;
+color: #f4f4f4;
+text-align: justify;
+}
+
+.adrianne-bar
+{position: absolute;
+height: 350px;
+  width: 100px;
+  margin-left: 480px;
+  margin-top: 0px;
+  background: var(--main);
+background: linear-gradient(0deg, var(--main) 0%, var(--accent) 100%);
+border-radius: 0px 0px 5px 5px;
+}
+
+.adrianne-charimg
+{height: 200px;
+  width: 150px;
+  margin-left: -90px;
+  background: #000;
+  border: solid 2px #f4f4f4;
+  border-radius: 5px;
+  filter: grayscale(50%);
+}
+
+.adrianne .wand-info {
+  position: absolute;
+ height: 150px; 
+  width: 160px; 
+  background: #e9e9e9;
+  margin-top: 140px;
+  margin-left: 200px; 
+  border: 10px solid transparent;
+  border-radius: 10px 10px 0px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-align: justify;
+  line-height: 13px;
+  overflow: hidden;
+}
+
+.adrianne .wand-info h1
+{font-family: 'Comfortaa', cursive;
+  font-size: 11px;
+  text-align: center;
+  color: var(--accent);
+}
+
+.adrianne .wand-info b
+{font-family: 'Comfortaa', cursive;
+  font-size: 11px;
+  color: var(--main);
+}
+
+
+.adrianne .profile-basics {
+  height: 210px; 
+  width: 370px; 
+  background: #e9e9e9; 
+  position: absolute; 
+bottom: 10px;
+  left: 10px;
+  padding-top: 15px;
+  box-sizing: border-box; 
+  border: 25px solid transparent;
+  border-radius: 10px 10px 0px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  text-align: justify;
+line-height: 15px;
+}
+
+.adrianne .profile-header {
+ height: 25px; 
+  width: 360px;
+   border-radius: 10px 10px 0px 0px;
+  background: linear-gradient(90deg, var(--accent) 0%, var(--main) 100%);
+position: absolute;
+bottom: 190px;
+left: 10px;
+  font-size: 10px; 
+  line-height: 1px; 
+  padding: 5px;
+  z-index: 2;
+}
+
+.adrianne .profile-header h1 {
+font-family: 'Comfortaa', cursive;
+margin-left: 125px;
+color: #F4F4F4;
+font-size: 20px;
+  
+}
+
+
+
+.adrianne .profile-basics b {
+font-family: 'Comfortaa', cursive;
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase; 
+line-height: 130%;  
+-webkit-text-fill-color: transparent; -webkit-background-clip: text;  background-image: linear-gradient(129deg, var(--main) 0%, var(--accent) 100%);
+letter-spacing: 1px; }
+
+
+.adrianne .profile-header2 {
+ height: 25px; 
+  width: 110px;
+   border-radius: 0px 0px 20px 20px;
+  background: var(--main);
+position: absolute;
+top: 0px;
+left: 40px;
+  font-size: 12px; 
+  line-height: 1px; 
+  padding-bottom: 10px;
+  z-index: 2;
+}
+
+
+.adrianne .profile-header2 h1 {
+  font-family: 'Comfortaa', cursive;
+margin-left: 30px;
+color: #F4F4F4;
+font-size: 15px;
+}
+
+
+.adrianne .profile-skills {
+   display: flex;
+    flex-wrap:wrap;
+   justify-content: space-around;
+   align-items: baseline;
+   align-content: flex-start;
+  height: 95px;
+  width: 180px; 
+  background: #e9e9e9; 
+  margin-left: 10px;
+  margin-top: 40px;
+  border-radius: 0px 0px 10px 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position: absolute;
+  overflow: auto;
+  }
+  
+  .adrianne .profile-skills span { 
+    background: #d6d6d6;
+     border-radius: 5px;
+    padding: 9px;
+    display: block;
+    font-size: 11px;
+    line-height: 12px;
+    margin-bottom: 9px;
+    margin-right: 5px;
+    color: var(--accent);
+    font-weight: 900;
+position: relative;
+bottom: -5px;
+left: 2px;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+flex-grow: 1;
+  }
+  
+  
+ .adrianne-bars {
+    width: 120px;
+    height: 160px;
+    border-radius: 2px;	
+    position: absolute;
+    right: 155px;
+    bottom: 330px;
+    padding: 20px 50px;	
+    text-align:right;
+    line-height: 5px;
+  }
+  
+  .adrianne-bars b, i, u { 
+   color:var(--accent);
+  
+  }
+  
+  
+   .trait {	
+     padding: 5px 10px;
+     margin: -10px 0 0px -70px;	
+     border-radius:2px;
+     text-align:left;
+     
+   }
+  .traitFill {
+ width:100%;
+    border-radius: 10px;
+    height:10px;	
+    padding: 5px;
+    box-sizing: border-box;
+    background: #fff;
+    display:flex;	
+    margin: 5px 0;}
+    
+  .traitFill div {
+    display:inline-block;
+background: linear-gradient(90deg, var(--main) 0%, var(--accent) 100%);
+     height: 4px;
+     margin: -2px;
+    border-radius: 50px;
+    
+  }
+  .trait b {	font:600 7pt 'montserrat',
+  sans-serif;	
+letter-spacing: 3;
+  padding: 10px;
+  color:#777;
+  }
+}
+
+
+
+.adrianne .profile-player {
+  height: 40px; 
+  width: 590px;
+  background: linear-gradient(90deg, var(--main) 0%, var(--accent) 100%);
+  margin-top: 10px;
+  font-size: 12px; 
+  line-height: 1px; 
+  padding: 5px;
+  font-family: 'Comfortaa', cursive;
+  color: F4F4F4;
+}
+.adrianne-thread-content {
+  height: 530px;
+  width: 370px;
+  background: #fcfcfc;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  box-sizing: border-box;
+  border: 25px solid transparent;
+  border-radius: 10px; 
+font-family: 'Montserrat', sans-serif;
+  text-align: justify; 
+  color: #444; 
+  font-size: 14px; 
+  opacity: 0;
+  transition: .5s;
+   margin-left: -390px;
+   z-index: 3;
+   padding-top: 15px;
+}
+.adrianne-thread-within {
+  height: 425px;
+  width: 370px;
+  position: absolute;
+  bottom: 80px;
+  left: -55px;
+  box-sizing: border-box;
+  border: 25px solid transparent;
+  border-radius: 10px 10px 0px 0px; 
+font-family: 'Montserrat', sans-serif;
+  text-align: justify; 
+  color: #444; 
+  font-size: 14px; 
+   margin-left: 30px;
+   z-index: 4;
+   padding: 15px;
+   overflow: auto;
+}
+
+.adrianne-thread-content h1 {
+font-size: 25px;
+color: #CCCCCC;
+font-family: 'Comfortaa', cursive;
+}
+
+.adrianne-thread-content hr {
+ background: #dadada;
+    border: 0px;
+    height: 1px;
+    margin: 15px 5px 15px;
+}
+
+.adrianne-month {
+    color: #f4f4f4;
+font-family: 'Montserrat';
+font-weight: 600;
+font-size: 14px;
+margin-left: 220px;
+padding: 5px;
+background: var(--main);
+border-radius: 10px;
+}
+
+
+
+.adrianne-thread input {
+  display: none
+  
+}
+.adrianne-thread label {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  left: 405px;
+  top: 290px;
+  line-height: 1; 
+  text-transform: uppercase;
+  z-index: 4;
+  transition: .5s;
+  color: var(--main);
+ cursor: pointer;
+font-size: 22px;
+position: absolute;
+text-align: center;
+font-size: 55px;
+}
+
+.adrianne-thread input:checked+label {color: var(--accent);
+  transition: .5s;
+  
+}
+
+
+.adrianne-thread input:checked+label ~ .adrianne-thread-content {opacity: 1;
+    margin-left: 0px;
+    transition: .5s;
+}
+
+.adrianne-thread input:checked+label ~ .profile-header2 {opacity: 0;
+    margin-left: 0px;
+    transition: .5s;
+}
+
+.adrianne ::-webkit-scrollbar { width: 0px; background-color: transparent; }
+  
+.adrianne-aesthetic img{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 155px;
+  margin-left: 25px;
+  border-radius: 10px;
+  filter: grayscale(100%);
+}
+.adrianne-aesthetic2 img{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 370px;
+  margin-left: 410px;
+  border-radius: 10px;
+  filter: grayscale(100%);
+}
+
+.adrianneThread-active, .adrianneThread-complete {
+  position: relative;
+  width: 270px;
+  margin-left: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  line-height: 1.2;
+  min-height:30px;
+  font-size: 14px;
+  background: #e9e9e9;
+  border-radius: 10px;
+border-bottom: 1px solid #ccc;
+border-right: 1px solid #ccc;
+}
+
+.adrianneThread-active a, .adrianneThread-complete a {
+  position: relative;
+  font-weight:600;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+  text-align: justify;
+  overflow: hidden;
+  color: var(--accent);
+cursor: pointer;
+font-family: 'Comfortaa', cursive;
+
+}
+
+.adrianneThread-active hr, .adrianneThread-complete hr {
+margin-bottom: 2px!important;
+}
+
+
+.adrianneThread-active a:hover {
+color: #7A7A7A;
+transition: 0.5s;
+}
+
+
+
+.adrianneThread-active span, .adrianneThread-complete span {
+ margin-right: 6px;
+  color: #7c7c7c;
+  font-size: 9pt;
+  background-color: #d6d6d6;
+  padding: 3px;
+  line-height: 19px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  border-radius: 5px;
+}
+
+.adrianneThread-active span:before, .adrianneThread-complete span:before {
+  content:'#';
+  color:var(--accent);
+  font-weight:600;
+}
+
+.adrianneThread-complete {
+  filter: grayscale (100%);
+}
+
+.adrianneThread-complete a {
+  color:#8d8d8d!important;
+}
+
+.adrianneThread-complete span:before {
+  color:#8d8d8d!important;
+}
+
+
+ .adrianne-threads::-webkit-scrollbar { width: 0px; background-color: transparent;
+   
+   
+ }
+
+
+.adrianne-relation input {
+  display: none
+  
+}
+.adrianne-relation label {
+  position: absolute;
+  height: 30px;
+  left: 120px;
+  top: 480px;
+  width: 60px;
+  background: #ededed;
+  line-height: 4px; 
+  text-transform: uppercase; 
+  box-sizing: border-box;
+  padding-left: 20px;
+  border-radius: 90% 90% 00% 00%;
+  z-index: 4;
+  transition: .5s;
+}
+
+.adrianne-relation label span {
+color: #bbb;
+ cursor: pointer;
+font-size: 25px;
+position: absolute;
+left: 9px;
+bottom: 0px;
+text-align: center;
+
+}
+
+.adrianne-relation input:checked+label {background: var(--main);
+  transition: .5s;
+  
+}
+.adrianne-relation input:checked+label ~ .adrianne-relation-content {opacity: 1;
+    margin-left: 0px;
+    transition: .5s;
+}
+
+.adrianne-events
+{width: 350px;
+height: 85px;
+  background: #fcfcfc;
+  position: absolute;
+  top: 400px;
+  left: -25px;
+  padding: 10px;
+  border-top: 4px solid #f4f4f4;
+  font-size: 10px;
+  line-height: 5px;
+  z-index: 4;
+  overflow: auto;
+}
+.adrianne-events h2
+{font-family: 'Comfortaa', cursive;
+  color: var(--main);
+  text-decoratioN: underline var(--accent);
+}
+
+.adrianne-events b
+{font-family: 'Comfortaa', cursive;
+  color: var(--main);
+  text-decoratioN: underline var(--accent);
+  background: none;
+}
+
+.adrianne-relation-content
+{ height: 425px;
+  width: 370px;
+  background: #fcfcfc;
+  position: absolute;
+  bottom: 80px;
+  left: -25px;
+  box-sizing: border-box;
+  border: 25px solid transparent;
+  border-radius: 10px 10px 0px 0px; 
+font-family: 'Montserrat', sans-serif;
+  text-align: justify; 
+  color: #444; 
+  font-size: 14px; 
+  opacity: 0;
+  transition: .5s;
+   margin-left: -390px;
+   z-index: 5;
+   padding-top: 15px;
+   display: flex;
+   flex-wrap:wrap;
+   justify-content: space-around;
+   align-items: baseline;
+   align-content: flex-start;
+  overflow: auto;
+}
+
+.adrianne-relation-content .basic
+{color: #b2b2b2;
+background: #ededed;
+  padding: 5px;
+  border-radius: 10px;
+  border-right: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  margin: 5px;
+  font-size: 16px;
+  flex-grow: 1;
+}
+.adrianne-relation-content .basic::before
+{content:'\a48'; 
+	font-family:'starry';
+	border-right: 2px transparent;
+	padding-right: 5px;
+	padding-bottom: 5px;
+  color: #b2b2b2;
+  font-size: 20px;
+}
+.adrianne-relation-content .family
+{color: #b2b2b2;
+background: #ededed;
+  padding: 5px;
+  border-radius: 10px;
+  border-right: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  margin: 5px;
+  font-size: 16px;
+  flex-grow: 1;
+}
+  
+  .adrianne-relation-content .family::before
+{content:'\a37'; 
+	font-family:'starry';
+	padding-right: 5px;
+	padding-bottom: 5px;
+  color: #b2b2b2;
+  font-size: 20px;
+}
+  
+.adrianne-relation-content .hate
+{color: #b2b2b2;
+background: #ededed;
+  padding: 5px;
+  border-radius: 10px;
+  border-right: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  margin: 5px;
+  font-size: 16px;
+  flex-grow: 1;
+}
+
+  .adrianne-relation-content .hate::before
+{content:'\a11'; 
+	font-family:'starry';
+	padding-right: 5px;
+	padding-bottom: 5px;
+  color: #b2b2b2;
+  font-size: 20px;
+}
+
+.adrianne-relation-content .love
+{color: #b2b2b2;
+background: #ededed;
+  padding: 5px;
+  border-radius: 10px;
+  border-right: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  margin: 5px;
+  font-size: 16px;
+  flex-grow: 1;
+}
+
+  .adrianne-relation-content .love::before
+{content:'\a94'; 
+	font-family:'starry';
+	padding-right: 5px;
+	padding-bottom: 5px;
+  color: #b2b2b2;
+  font-size: 20px;
+}
+
+     .adrianne-thread-content .gryffindor {
+    -webkit-text-fill-color: #9f5066;
+    color: #9f5066 !important;
+    background: -webkit-linear-gradient(#f8f8f8, #f8f8f8);
+  }
+
+  .adrianne-thread-content .hufflepuff {
+    -webkit-text-fill-color: #cba55e;
+    color: #cba55e !important;
+        background: -webkit-linear-gradient(#f8f8f8, #f8f8f8);
+
+  }
+
+    .adrianne-thread-content .ravenclaw {
+    -webkit-text-fill-color: #5f739a;
+    color: #5f739a !important;
+        background: -webkit-linear-gradient(#f8f8f8, #f8f8f8);
+
+  }
+
+    .adrianne-thread-content .slytherin {
+    -webkit-text-fill-color: #75a796;
+    color: #75a796 !important;
+        background: -webkit-linear-gradient(#f8f8f8, #f8f8f8);
+
+
+  }
+  
+      .adrianne-thread-content .faculty {
+    -webkit-text-fill-color: #8ab5c7;
+    color: #8ab5c7 !important;
+        background: -webkit-linear-gradient(#f8f8f8, #f8f8f8);
+
+
+  }
+  
+      .adrianne-thread-content .civilian {
+    -webkit-text-fill-color: #d68f73;
+    color: #d68f73 !important;
+        background: -webkit-linear-gradient(#f8f8f8, #f8f8f8);
+
+
+  }
