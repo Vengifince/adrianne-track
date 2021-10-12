@@ -659,27 +659,22 @@ background: #ededed;
      .adrianne-thread-content .gryffindor {
     -webkit-text-fill-color: #9f5066;
     color: #9f5066 !important;
-    background: -webkit-linear-gradient(#f8f8f8, #f8f8f8);
   }
 
   .adrianne-thread-content .hufflepuff {
     -webkit-text-fill-color: #cba55e;
     color: #cba55e !important;
-        background: -webkit-linear-gradient(#f8f8f8, #f8f8f8);
-
   }
 
     .adrianne-thread-content .ravenclaw {
     -webkit-text-fill-color: #5f739a;
     color: #5f739a !important;
-        background: -webkit-linear-gradient(#f8f8f8, #f8f8f8);
 
   }
 
     .adrianne-thread-content .slytherin {
     -webkit-text-fill-color: #75a796;
     color: #75a796 !important;
-        background: -webkit-linear-gradient(#f8f8f8, #f8f8f8);
 
 
   }
@@ -687,7 +682,6 @@ background: #ededed;
       .adrianne-thread-content .faculty {
     -webkit-text-fill-color: #8ab5c7;
     color: #8ab5c7 !important;
-        background: -webkit-linear-gradient(#f8f8f8, #f8f8f8);
 
 
   }
@@ -695,7 +689,6 @@ background: #ededed;
       .adrianne-thread-content .civilian {
     -webkit-text-fill-color: #d68f73;
     color: #d68f73 !important;
-        background: -webkit-linear-gradient(#f8f8f8, #f8f8f8);
 
 
   }
