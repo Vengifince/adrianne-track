@@ -593,6 +593,28 @@ background: #ededed;
   color: #b2b2b2;
   font-size: 20px;
 }
+
+.adrianne-relation-content .friend
+{color: #b2b2b2;
+background: #ededed;
+  padding: 5px;
+  border-radius: 10px;
+  border-right: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  margin: 5px;
+  font-size: 13px;
+  flex-grow: 1;
+}
+
+  .adrianne-relation-content .friend::before
+{content:'\a1'; 
+	font-family:'starry';
+	padding-right: 5px;
+	padding-bottom: 5px;
+  color: #b2b2b2;
+  font-size: 20px;
+}
+
 .adrianne-relation-content .family
 {color: #b2b2b2;
 background: #ededed;
